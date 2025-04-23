@@ -10,16 +10,18 @@
 - **Graphical User Interface**: Provides a GUI built with Tcl for interactive debugging sessions.
 
 ## Repository Structure
-├── cli_debug.py        # Command-line debugger script
-├── debugger.py         # Core debugging logic
-├── debugging.tcl       # GUI implementation using Tcl
-├── errors.db           # SQLite database containing error information
-├── errors.log          # Sample log file with errors
-├── errors_db.py        # Script to interact with the error database
-├── gui.tcl             # GUI script for the debugger
-├── parse_logs.pl       # Perl script for parsing log files
-├── run_debugger.sh     # Shell script to launch the debugger
-├── sample_log.txt      # Sample input log file for testing
+
+
+      ├── cli_debug.py   - Command-line debugger script
+      ├── debugger.py         #Core debugging logic
+      ├── debugging.tcl       #GUI implementation using Tcl
+      ├── errors.db           #SQLite database containing error information
+      ├── errors.log          # Sample log file with errors
+      ├── errors_db.py        # Script to interact with the error database
+      ├── gui.tcl             # GUI script for the debugger
+      ├── parse_logs.pl       # Perl script for parsing log files
+      ├── run_debugger.sh     # Shell script to launch the debugger
+      ├── sample_log.txt      # Sample input log file for testing
 
 Usage
 Run the Debugger
