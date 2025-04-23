@@ -1,0 +1,6 @@
+[INFO] Running synthesis...
+[ERROR] Timing violation at net CLK
+[WARNING] Unused module detected
+[ERROR] Synthesis failed due to undefined module
+[ERROR] Setup time violation detected
+
